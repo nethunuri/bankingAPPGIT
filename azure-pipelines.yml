@@ -24,8 +24,8 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'bankingAPPGIT/'
-    ArtifactName: 'bankingAPPGIT/'
+    PathtoPublish: 'bankingAPPGIT/dist'
+    ArtifactName: 'bankingAPPGIT/dist'
     
     #artifact will craete for below stpes
 - task: ArchiveFiles@2
