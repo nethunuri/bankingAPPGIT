@@ -34,5 +34,5 @@ steps:
     rootFolderorFile: '$(System.DefaultWorkingDirectory)/bankingAPPGIT/'
     includeRootFolder: false
     archiveType : 'zip'
-    archiveFile: '$(Build.ArtifactstagingDirectory)/$(Build.BuildId).zip'
+    archiveFile: $(Build.ArtifactstagingDirectory)/$(Build.BuildId).zip
     replaceExistingArchive: true
