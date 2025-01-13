@@ -33,6 +33,6 @@ steps:
   inputs:
     rootFolderorFile: '$(System.DefaultWorkingDirectory)/bankingAPPGIT/'
     includeRootFolder: false
-    archiveType : 'zip'
+    archiveType : zip
     archiveFile: $(Build.ArtifactstagingDirectory)/$(Build.BuildId).zip
     replaceExistingArchive: true
